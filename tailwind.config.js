@@ -15,7 +15,11 @@ export default {
     ],
 
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'body': ['Roboto'],
+            }
+        },
     },
 
     plugins: [forms, typography],
