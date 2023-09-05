@@ -20,8 +20,8 @@
                         <x-nav-link href="{{ route('docs') }}" :active="request()->routeIs('docs')">
                             {{ __('Documentation') }}
                         </x-nav-link>
-                    </div>
-                </div> --}}
+                    </div> --}}
+                </div>
 
                 <!-- Hamburger -->
                 <div class="-mr-2 flex items-center sm:hidden">
